@@ -14,13 +14,13 @@ This API allows you to manage and challenge Pokemon. Each Pokemon can have sever
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/pokemon-challenge-api.git
+    git clone https://github.com/davidmm07/pkm_api.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd pokemon-challenge-api
+    cd pkm_api
     ```
 
 3. Create a virtual environment:
@@ -48,7 +48,14 @@ This API allows you to manage and challenge Pokemon. Each Pokemon can have sever
     ```bash
     pip install -r requirements.txt
     ```
+### Required packages(there is also in the requirements)    
+    ```bash
+    pip install Flask-Migrate
+    ```
 
+    ```bash
+    pip install SQLAlchemy
+    ```
 ## Database Migration
 
 ### Initialize Database
